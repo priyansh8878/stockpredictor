@@ -1,0 +1,28 @@
+# --- Core Django Framework ---
+Django==5.0.6
+
+# --- Deployment & Server ---
+gunicorn==21.2.0
+whitenoise==6.7.0
+dj-database-url==2.3.0
+psycopg2-binary==2.9.9
+python-dotenv==1.0.1
+
+# --- Machine Learning / Data Science ---
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.0
+matplotlib==3.9.0
+yfinance==0.2.40
+requests==2.32.3
+
+# --- OpenAI Integration ---
+openai==1.44.0
+
+# --- Utilities ---
+tqdm==4.66.4
+joblib==1.4.2
+
+# --- Optional (For CORS/API integrations) ---
+djangorestframework==3.15.2
+django-cors-headers==4.4.0
